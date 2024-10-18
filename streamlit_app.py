@@ -15,4 +15,4 @@ full_content = css_content + html_content + js_content
 
 # Display the HTML content with Streamlit
 # st.components.v1.html(full_content, height=600, scrolling=True)
-st.components.v1.html(full_content)
+st.components.v1.html(full_content, height=100%, scrolling=True)
