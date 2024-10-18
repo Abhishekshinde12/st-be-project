@@ -34,7 +34,7 @@ custom_css = """
 full_content = f"{custom_css}<style>{css_content}</style>{html_content}<script>{js_content}</script>"
 
 # Display the HTML content with Streamlit
-st.components.v1.html(full_content, height=1000, scrolling=False)
+st.components.v1.html(full_content, height=1000, scrolling=True)
 
 # Hide Streamlit elements
 hide_streamlit_style = """
